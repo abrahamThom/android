@@ -12,18 +12,14 @@
         android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/enter_name"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp"/>
+        android:hint="@string/enter_name"/>
 
     <EditText
         android:id="@+id/pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/enter_pass"
-        android:layout_below="@id/name"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp"/>
+        android:layout_below="@id/name"/>
 
     <Button
         android:id="@+id/login_button"
@@ -31,6 +27,5 @@
         android:layout_height="wrap_content"
         android:onClick="submit"
         android:text="@string/login"
-        android:layout_below="@id/pass"
-        android:layout_centerHorizontal="true"/>
+        android:layout_below="@id/pass"/>
 </RelativeLayout>
